@@ -113,3 +113,44 @@
 
 
 /* Header banner section part ended */
+
+/* feature section style */
+
+.feature-img-container{
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.feature-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+    
+}
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+#feature-id{
+    margin-top:6rem;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-overall-section , 
+    .nav-container ,
+    .feature-section
+     {
+       flex-direction: column;
+    } 
+    .feature-section{
+        text-align: center;
+    }
+    .feature-img-container{
+        grid-template-columns: 1fr;
+    }
+}
+

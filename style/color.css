@@ -15,6 +15,9 @@
     background-color: #FF900E ;
     font-size: 1rem;
     font-weight: bold;
+    padding:1rem 2rem;
+    border-radius: 0.4rem;
+    margin: 2rem 0;
 }
 .display-flex{
     display: flex;
@@ -24,6 +27,11 @@
 /* line height-26px */
 .line-height{
     line-height: 1.16rem;
+}
+/* 16px */
+.most-used-text{
+    line-height: 1.16rem;
+    font-size: 0.72rem;
 }
 .bold-title{
     font-size: 2rem;
@@ -60,12 +68,14 @@
 
 .overall-header{
     background-color: rgba(255, 144, 14, 0.1);
+   
 }
 .nav-overall-section{
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .nav-container{
     gap:60px;
@@ -81,3 +91,25 @@
    }
 
 /* Header part 1: Nav Section ended  */
+
+/* Header banner section part start */
+.banner-heading{
+    font-size:2.85rem ;
+    font-weight: bold;
+    line-height: auto;
+}
+
+.overall-banner-main-div{ 
+    max-width:39rem;
+    margin:0 auto;
+   text-align: center;
+}
+
+
+.banner-img{
+    width:80%;
+    padding:0 10%
+}
+
+
+/* Header banner section part ended */

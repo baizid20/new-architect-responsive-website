@@ -1,0 +1,83 @@
+             /* website font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 25rem;
+  font-style: normal;
+}
+
+                       /* Shared style */
+.primary-btn{
+    color: white;
+    background-color: #FF900E ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.display-flex{
+    display: flex;
+}
+
+/* text-font-size */
+/* line height-26px */
+.line-height{
+    line-height: 1.16rem;
+}
+.bold-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* text-color */
+.dark-1{
+    color:#131313;
+}
+.dark-2{
+    color:#424242;
+}
+.dark-3{
+    color:#727272;
+}
+.dark-4{
+    color:#A1A1A1;
+}
+.dark-5{
+    color:#D0D0D0;
+}
+.dark-6{
+    color:#E7E7E7;
+}
+.dark-7{
+    color:#F3F3F3;
+}
+
+
+
+
+
+/*Header part 1: Nav Section start  */
+
+.overall-header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-overall-section{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-container{
+    gap:60px;
+    
+}
+.nav-li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: normal;
+   }
+
+/* Header part 1: Nav Section ended  */

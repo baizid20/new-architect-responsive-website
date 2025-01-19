@@ -133,9 +133,41 @@ main{
     margin:0 auto;
 }
 #feature-id{
-    margin-top:6rem;
+    margin:6rem 0;
 }
 
+/* Features you will love & enjoy section start  */
+
+/* Features you will love & enjoy section ended */
+
+/* Some Facts section start here */
+.card-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.card-img-div{
+    border:1px solid #FF900E;
+    width:10.75rem;
+    height:10.75rem;
+    padding:30px 10px 0px 10px;
+    border-radius: 5px;
+   
+    
+}
+.fact-number{
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+.card-img-div>img{
+   /* margin-top: 20px; */
+}
+
+
+/* Some Facts section ended */
 
 
 
@@ -151,6 +183,10 @@ main{
     }
     .feature-img-container{
         grid-template-columns: 1fr;
+    }
+    .card-img-container{
+        grid-template-columns: none;
+        gap:10px;
     }
 }
 

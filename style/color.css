@@ -37,6 +37,12 @@
     font-size: 2rem;
     font-weight: bold;
 }
+/* semi-bold-20px */
+.semi-bold-20{
+    font-size: 0.89rem;
+    font-weight: bold;
+    line-height: auto;
+}
 /* text-color */
 .dark-1{
     color:#131313;
@@ -128,7 +134,11 @@
     gap:4rem;
     
 }
-main{
+#main-not{
+    width:90vw;
+    margin: 0 auto;
+}
+.main{
     max-width:1140px;
     margin:0 auto;
 }
@@ -137,6 +147,36 @@ main{
 }
 
 /* Features you will love & enjoy section start  */
+
+.Features-you-will-love-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: evenly;
+    align-items: center;
+   
+    
+}
+.architect-img{
+    width:40vw;
+    height: 60vw;
+}
+.love-div{
+    width:30vw;
+
+}
+.main-title{
+    display: block;
+    border-left: 5px solid #FF900E;
+    padding-left:10px;
+}
+.box{
+  
+     background-color: white;
+     padding:5px 60px;
+     margin: 10px;
+     /* border:1px solid black; */
+     box-shadow: 1px 1px 1px 1px gray;
+}
 
 /* Features you will love & enjoy section ended */
 
